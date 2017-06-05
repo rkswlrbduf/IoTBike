@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Bluetooth Chat</string>
+    <string name="app_name">IoTBike</string>
 
     <string name="send">Send</string>
     <string name="scan">Scan</string>

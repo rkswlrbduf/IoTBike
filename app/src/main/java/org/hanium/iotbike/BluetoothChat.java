@@ -9,17 +9,12 @@ import android.os.Handler;
 import android.os.Message;
 import android.util.Log;
 import android.view.KeyEvent;
-import android.view.Menu;
-import android.view.MenuInflater;
-import android.view.MenuItem;
 import android.view.View;
 import android.view.Window;
 import android.view.View.OnClickListener;
 import android.view.inputmethod.EditorInfo;
-import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.EditText;
-import android.widget.ListView;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -122,7 +117,7 @@ public class BluetoothChat extends Activity {
             }
         });
 
-        mMessageText = (TextView)findViewById(R.id.message_text);
+        mMessageText = (TextView)findViewById(R.id.inline_message);
 
         mChatService = new BluetoothChatService(this, mHandler);
 
