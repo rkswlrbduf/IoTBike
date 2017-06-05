@@ -11,6 +11,12 @@
         android:transcriptMode="alwaysScroll"
         android:layout_weight="1"
         />
+
+    <TextView
+        android:id="@+id/message_text"
+        android:layout_width="match_parent"
+        android:layout_height="150dp" />
+
     <LinearLayout
         android:orientation="horizontal"
         android:layout_width="match_parent"
